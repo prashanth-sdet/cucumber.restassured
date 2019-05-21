@@ -1,0 +1,7 @@
+Feature: POST
+
+  @data
+  Scenario: to practise data tables  # src/test/resources/features/Feature2.feature:13
+    Given I practice data tables     # Practicestepdefinitions.pracdatatables(DataTable)
+    And I practice data tables again # Practicestepdefinitions.pracdatatables(String>>)
+    And I test step 89 definitions   # Practicestepdefinitions.testdatatables(int)

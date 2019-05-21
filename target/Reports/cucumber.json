@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-05-12T16:56:23.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 585956,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Samplecommonmethods.testhook()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "to practise data tables",
+        "description": "",
+        "id": "post;to-practise-data-tables",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 831147,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I practice data tables",
+            "match": {
+              "location": "Practicestepdefinitions.pracdatatables(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "values"
+                ]
+              },
+              {
+                "cells": [
+                  "Value1",
+                  "uft"
+                ]
+              },
+              {
+                "cells": [
+                  "Value2",
+                  "cucumber"
+                ]
+              },
+              {
+                "cells": [
+                  "Value3",
+                  "selenium"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I practice data tables again",
+            "match": {
+              "location": "Practicestepdefinitions.pracdatatables(String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "values"
+                ]
+              },
+              {
+                "cells": [
+                  "Value1",
+                  "uft"
+                ]
+              },
+              {
+                "cells": [
+                  "Value2",
+                  "cucumber"
+                ]
+              },
+              {
+                "cells": [
+                  "Value3",
+                  "selenium"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135396,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I test step 89 definitions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "89",
+                  "offset": 12
+                }
+              ],
+              "location": "Practicestepdefinitions.testdatatables(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data"
+          }
+        ]
+      }
+    ],
+    "name": "POST",
+    "description": "",
+    "id": "post",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Feature2.feature",
+    "tags": []
+  }
+]
